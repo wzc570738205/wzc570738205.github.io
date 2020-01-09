@@ -8,10 +8,10 @@ tags:
 <!--more-->
 * 欢迎加入前端交流群来获取视频资料以及前端学习资料：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
 
-#### 介绍
+
 你将学会：
 * 基于cordova构建vue项目app
-* 自定义app名字/图标/启页图片
+* 自定义app名字/图标/启动页图片
 * 自动构建脚本
 
 > Cordova[(中文官网详细介绍)](https://cordova.axuer.com/docs/zh-cn/latest/guide/overview/)是一个开源的移动开发框架。允许你用标准的web技术-HTML5,CSS3和JavaScript做跨平台开发,应用的实现是通过web页面，默认的本地文件名称是index.html
@@ -31,7 +31,7 @@ tags:
   * [Android SDK](https://developer.android.com/studio?pkg=tools)
 
 #### 2.验证环境
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106095540459-295220873.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f79016fdc46f83?w=1072&h=950&f=png&s=129274)
 
 * 项目目录
 ```
@@ -60,7 +60,7 @@ cordova platform add android --save
 ```
 cordova requirements
 ```
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106102806018-331703181.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f79016fd4c88cb?w=838&h=135&f=png&s=21675)
 
 * ###### 3.5打包app安装到手机上（前提是手机连上电脑并开启USB调试模式）
 ```
@@ -73,9 +73,9 @@ cordova build android
 apk生成目录：cordova-project/platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
 默认生成的cordova app 图标：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106103216293-68461316.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901700ca43ad?w=105&h=104&f=png&s=13778)
 运行界面：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106103247205-584885758.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901700db02da?w=800&h=1280&f=png&s=83037)
 
 进行到这里的时候，cordova部分先告一段落，下面开始第二部分
 #### 4.新建vue项目（[vue-cli](https://cli.vuejs.org/zh/)）
@@ -89,7 +89,7 @@ npm run serve
 ```
 
 * ###### 4.1浏览器运行vue项目界面：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106103735110-2119623814.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901701f43c63?w=700&h=1302&f=png&s=103383=100px*100px)
 * ###### 4.2打包vue项目
 * 配置[vue.config.js](https://cli.vuejs.org/zh/config/)
 * my-app目录下新建vue.config.js（这里只做路径配置，其他配置项可详情[vue.config.js](https://cli.vuejs.org/zh/config/)）
@@ -124,28 +124,28 @@ cd cordova-project
 cordova build android 
 ```
 运行至手机界面：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106105455322-630596717.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901703463555?w=1080&h=1920&f=png&s=199676)
 
 #### 5.浏览器调试app
 运行```cordova run android ```后，app会装到手机上
 谷歌浏览器输入：chrome://inspect/#devices
 看到如下界面：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106105607339-124476188.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f790171c9ef400?w=396&h=438&f=png&s=39837)
 找到自己的设备（手机中也需要运行app），点击inspect，接下来就可以调试样式了
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106105724461-1667815480.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901724d53642?w=1210&h=744&f=png&s=237101)
 
 #### 6.更换app图标以及app名字以及app启动页
 先随便准备2张图片（图标以及启动页图片）
 *  ###### 6.1更改图标：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106112721604-192648210.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901724d519f5?w=212&h=216&f=png&s=128131)
 进入文件夹：```cordova/cordova-project/res/icon/android ```
 将图片进行替换即可（名字/图片格式推荐png）
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106113053401-1347832581.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901726e3b0b1?w=458&h=118&f=png&s=22844)
 替换为：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106113215309-980574484.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f790172995d8b1?w=476&h=108&f=png&s=16175)
 
 *  ###### 6.2更改启动页图片：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106112811269-75503383.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901727c089d7?w=318&h=578&f=png&s=94922)
 安装splashscreen插件：
 ```
 cd cordova-project
@@ -153,9 +153,9 @@ cordova plugin add cordova-plugin-splashscreen
 ```
 进入文件夹：```/cordova/cordova-project/res/screen/android ```
 将图片进行替换即可,这里只替换了竖屏的（名字/图片格式推荐png）
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106113837095-820797738.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f7901741bd0a56?w=659&h=271&f=png&s=28137)
 替换为
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106113918639-1787347273.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f790174a5fad86?w=663&h=236&f=png&s=26149)
 
 * 打开```config.xml```
 *  ###### 6.3更改名字(name标签内的内容进行更改即可)
@@ -181,9 +181,9 @@ cordova plugin add cordova-plugin-splashscreen
 ```
 * 打包查看
 图标以及名字：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106114302084-2065763405.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f790174a6d407a?w=90&h=115&f=png&s=20233)
 启动页：
-![](https://img2018.cnblogs.com/blog/1250245/202001/1250245-20200106114327001-549694697.png)
+![](https://user-gold-cdn.xitu.io/2020/1/6/16f790174d621f02?w=800&h=1280&f=png&s=267397)
 
 #### 7.自动构建脚本（shell）
 每次打包需要执行如下命令，很麻烦
