@@ -1,18 +1,25 @@
-sudo: false
 language: node_js
-node_js:
-  - 10 # use nodejs v10 LTS
-cache: npm
+
+node_js: stable
+
+install:
+  - npm install
+
+
+
+script:
+  - hexo clean
+  - hexo generate
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "wzc570738205"
+  - git config user.email "570738205@qq.com"
+  - git add .
+  - git commit -m "Deploy blog pages"
+  - git push --force --quiet "https://${GH_TOKEN}@github.com/nettee/nettee.github.io" master:master
+
 branches:
   only:
-    - master # build master branch only
-script:
-  - hexo generate # generate static files
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: true
-  on:
-    branch: master
-  local-dir: public
+    - hex
