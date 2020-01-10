@@ -30,8 +30,9 @@ date: 2017-03-10 10:20:07
 - 2009 HTML5
 
 - 2014 HTML5 Finalized
-> 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-
+{% note success no-icon %}
+欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
+{% endnote %}
 
 2002年的表格布局逐渐被淘汰，是因为：表格是用来承载数据的，并不是用来划分网页结构的。
 

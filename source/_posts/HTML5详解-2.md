@@ -16,8 +16,9 @@ date: 2017-03-16 12:26:09
 
 - 全屏
 <!--more-->
-> 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-
+{% note success no-icon %}
+欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
+{% endnote %}
 ## 拖拽
 
 

@@ -17,6 +17,9 @@ date: 2020-01-10 11:10:33
 
 Hexo 的官方文档写的已经很全面了，本文仅将一些注意点列出。
 <!--more-->
+{% note success no-icon %}
+欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
+{% endnote %}
 安装 Hexo 的文档参考：
 - [官宣-Hexo 文档](https://hexo.io/zh-cn/docs/index.html)
 
