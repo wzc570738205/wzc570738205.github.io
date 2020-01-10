@@ -9,6 +9,9 @@ keywords:
   - vue-cli
   - vue-cli4
   - 混合开发
+  - cordova更换图片
+  - cordova更换图标
+  - cordova更换启动页图片
 ---
 
 {% asset_img cordova_bot.png This is an example image %}
