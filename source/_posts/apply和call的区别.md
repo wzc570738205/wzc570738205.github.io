@@ -1,6 +1,6 @@
 ---
 title: apply和call的区别
-date: 2020-01-09 17:56:02
+date: 2019-05-09 17:56:02
 tags: javascript
 categories: 前端知识
 ---
@@ -8,7 +8,9 @@ categories: 前端知识
 
 ## apply 和 call 的区别
  ECMAScript 规范给所有函数都定义了 call 与 apply 两个方法，它们的应用非常广泛，它们的作用也是一模一样，只是传参的形式有区别而已。
- 
+  <!--more-->
+
+> 欢迎加入前端交流群来获取视频资料以及前端学习资料：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
 ### apply( )
  apply 方法传入两个参数：一个是作为函数上下文的对象，另外一个是作为函数参数所组成的数组。
  
@@ -23,9 +25,7 @@ categories: 前端知识
  
  func.apply(obj, ['A', 'B']);    // A linxin B
  ```
- <!--more-->
 
-* 欢迎加入前端交流群来获取视频资料以及前端学习资料：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
 
  可以看到，obj 是作为函数上下文的对象，函数 func 中 this 指向了 obj 这个对象。参数 A 和 B 是放在数组中传入 func 函数，分别对应 func 参数的列表元素。
  
@@ -148,7 +148,9 @@ categories: 前端知识
          }
      }
  ```
-### 几个使用方法
+
+## 小技巧
+
 * ES6里面的call还能用解构来传参
 ```js
 const f = function (a, b, c) {

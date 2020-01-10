@@ -4,11 +4,13 @@ tags: javascript
 categories: 前端知识
 date: 2017-04-09 22:57:16
 ---
+{% asset_img logo.png This is an example image %}
+
 ### vue引入swiper  vue使用swiper  vue脚手架使用swiper /引入js文件/引入css文件
 
 <!--more-->
 
-欢迎加入前端交流群来获取视频资料以及前端学习资料：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
+> 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
 
 ----------------------------------------------------------
 
