@@ -3,6 +3,12 @@ title: cordova+vue-cli4构建app
 date: 2017-12-11 14:15:52
 tags: javascript
 categories: 前端知识
+keywords:
+  - cordova
+  - vue
+  - vue-cli
+  - vue-cli4
+  - 混合开发
 ---
 
 {% asset_img cordova_bot.png This is an example image %}
