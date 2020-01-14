@@ -12,6 +12,7 @@ keywords:
   - cordova更换图片
   - cordova更换图标
   - cordova更换启动页图片
+  - cordova+vue-cli4构建app
 ---
 
 {% asset_img cordova_bot.png This is an example image %}
