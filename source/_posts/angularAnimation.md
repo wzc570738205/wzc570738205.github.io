@@ -22,7 +22,7 @@ date: 2020-01-16 11:01:54
 #### css实现
 我们可以使用基于css3的一个动画库，[Animate.css](https://daneden.github.io/animate.css/)
 这样可以实现动画，但是不太好控制它的行为
-
+<!-- more -->
 #### javascript实现
 如果为了实现更复杂的动画，更好的控制，我们可以使用js来实现动画
 比如使用
