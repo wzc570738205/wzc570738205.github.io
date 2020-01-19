@@ -43,8 +43,10 @@ keywords:
 * [Android Studio /Android SDK](https://cordova.axuer.com/docs/zh-cn/latest/guide/platforms/android/index.html)
   * [Android Studio](https://developer.android.com/studio?pkg=tools)
   * [Android SDK](https://developer.android.com/studio?pkg=tools)
+
 #### 懶人下載包(提取码：gws8)
 [java8+Android Studio+Gradle](https://pan.baidu.com/s/1FjGzpI1wTgkhz309EaSuLQ)
+
 ### 验证环境
 
 <img src="a.jpeg" width="70%" >
