@@ -1,3 +1,6 @@
+notifications:
+   webhooks: https://oapi.dingtalk.com/robot/send?access_token=7ffef73122ecef12a0471129b6dccbb858c17db9993a70d84a2740e37a03d73a
+
 language: node_js
 
 node_js: stable
