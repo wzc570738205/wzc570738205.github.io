@@ -661,7 +661,7 @@ disqus:
 
 编辑 主题配置文件， 将 disqus 下的 enable 设定为 true，同时提供您的 shortname。count 用于指定是否显示评论数量
 
-#### Valine
+#### vline
 
 [Valine](https://valine.js.org/avatar.html)这个评论系统也是用到了 [leancloud](https://leancloud.cn/dashboard/app.html?appid=7CDtrbb4U7nQzOdctmXXnMqt-gzGzoHsz#/general)
 
