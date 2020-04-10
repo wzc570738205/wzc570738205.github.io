@@ -2,6 +2,7 @@
 title: github clone加速脚本 GitHub 国内加速下载
 tags: github
 categories: 前端知识
+index_img: https://picsum.photos/300/200
 keywords:
   - github
   - clone加速脚本

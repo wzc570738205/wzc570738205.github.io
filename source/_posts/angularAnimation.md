@@ -2,6 +2,9 @@
 title: Angular动画
 tags: javascript
 categories: 前端知识
+cover_img: 'https://picsum.photos/302/202'
+feature_img: 'https://picsum.photos/302/202'
+index_img: 'https://picsum.photos/302/202'
 keywords:
   - angular
   - animation
@@ -11,9 +14,7 @@ keywords:
   - angular animations
 date: 2020-01-16 11:01:54
 ---
-{% note danger no-icon %}
-### 原生实现
-{% endnote %}
+<p class="note note-primary">原生实现</p>
 
 如果不使用框架的话我们在浏览器中使用动画无非2种
 - css实现
@@ -31,9 +32,9 @@ date: 2020-01-16 11:01:54
 - [Zepto](https://zeptojs.com/)
 - [Web Animations Api](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API)
 
-{% note danger no-icon %}
-### Angular中使用
-{% endnote %}
+
+<p class="note note-primary">Angular中使用</p>
+
 [官方文档](https://angular.io/guide/animations)
 
 典型的动画会涉及多种随时间变化的转换。HTML 元素可以移动、变换颜色、增加或缩小、隐藏或从页面中滑出。 这些变化可以同时发生或顺序发生。你可以控制每次转换的持续时间。
@@ -58,7 +59,7 @@ angular动画大体分为四部分
 定义一个动画步骤，它把一些样式信息和时序信息组合在一起。
 
 [示例demo](https://stackblitz.com/edit/angulartransition)
-{% tabs app.component.ts, 1 %}
+app.component.ts
 <!-- tab app.component.ts -->
 ```js
 @Component({
@@ -98,6 +99,7 @@ export class OpenCloseComponent {
 ```
 <!-- endtab -->
 <!-- tab app.component.html -->
+app.component.html
 ```html
 <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
   <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
@@ -105,6 +107,7 @@ export class OpenCloseComponent {
 ```
 <!-- endtab -->
 <!-- tab app.component.css -->
+app.component.css
 ```css
 :host {
   display: block;
@@ -120,4 +123,3 @@ export class OpenCloseComponent {
 }
 ```
 <!-- endtab -->
-{% endtabs %}

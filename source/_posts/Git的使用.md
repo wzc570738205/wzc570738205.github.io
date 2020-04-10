@@ -3,14 +3,17 @@ title: Git的使用
 tags: git
 categories: 前端知识
 date: 2016-10-20 20:54:57
+cover_img: 'https://picsum.photos/290/190'
+feature_img: 'https://picsum.photos/290/190'
+index_img: 'https://picsum.photos/290/190'
 ---
 
 本教程只会让你成为Git⽤户，不会让你成为Git专家。很多Git命令只有那些专家才明⽩（事实上我也不明⽩，因为我不是Git专家），但我保证 这些命令可能你⼀辈⼦都不会⽤
 到。既然Git是⼀个⼯具，就没必要把时间浪费在那些“⾼级”但⼏乎永远不会⽤到的命令上。⼀旦你真的⾮⽤不可了，到时候再 ⾃⾏Google或者请教专家也未迟。如果你是⼀个开发⼈员，想⽤上这个世界上⺫前最先进的分布式版本控制系统，那么，赶快开始学习吧！
 <!--more-->
-{% note success no-icon %}
+
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
+
 
 ## 常见操作
 

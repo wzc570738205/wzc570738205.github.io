@@ -3,6 +3,9 @@ title: vue引入swiper
 tags: javascript
 categories: 前端知识
 date: 2017-04-09 22:57:16
+cover_img: 'https://picsum.photos/281/181'
+feature_img: 'https://picsum.photos/281/181'
+index_img: 'https://picsum.photos/281/181'
 ---
 {% asset_img logo.png This is an example image %}
 
@@ -10,9 +13,8 @@ date: 2017-04-09 22:57:16
 
 <!--more-->
 
-{% note success no-icon %}
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
+
 ----------------------------------------------------------
 
                   转载文章请注明出处！               

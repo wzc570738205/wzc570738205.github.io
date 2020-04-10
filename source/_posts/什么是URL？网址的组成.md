@@ -3,14 +3,15 @@ title: 什么是URL？网址的组成
 tags: http
 categories: 前端知识
 date: 2018-11-15 15:29:27
+cover_img: 'https://picsum.photos/296/196'
+feature_img: 'https://picsum.photos/296/196'
+index_img: 'https://picsum.photos/296/196'
 ---
 和 [Hypertext](https://developer.mozilla.org/en-US/docs/Glossary/Hypertext) 以及 [HTTP](https://developer.mozilla.org/en-US/docs/Glossary/HTTP) 一样，URL是Web中的一个核心概念。它是[浏览器](https://developer.mozilla.org/en-US/docs/Glossary/Browser)用来检索web上公布的任何资源的机制。
 
 URL指的是统一资源定位符（Uniform Resource Locator）。URL无非就是一个给定的独特资源在Web上的地址。理论上说，每个有效的URL都指向一个独特的资源。这个资源可以是一个HTML页面，一个CSS文档，一幅图像，等等。而在实际中，有一些例外，最常见的情况就是URL指向了不存在的或是被移动过的资源。由于通过URL呈现的资源和URL本身由Web服务器处理，因此web服务器的拥有者需要认真地维护资源以及与它关联的URL。
  <!--more-->
-{% note success no-icon %}
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
 一些URL的示例：
 
 ```

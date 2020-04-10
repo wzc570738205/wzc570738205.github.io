@@ -3,6 +3,9 @@ title: html标签上
 tags: html教程
 categories: 前端知识
 date: 2016-12-25 02:59:14
+cover_img: 'https://picsum.photos/286/186'
+feature_img: 'https://picsum.photos/286/186'
+index_img: 'https://picsum.photos/286/186'
 ---
 
 
@@ -14,9 +17,9 @@ date: 2016-12-25 02:59:14
 - 超链接 `<a>`
 - 图片标签 `<img>`
 <!--more-->
-{% note success no-icon %}
+
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
+
 
 ## 前言
 

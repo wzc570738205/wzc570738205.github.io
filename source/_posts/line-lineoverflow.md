@@ -9,31 +9,34 @@ keywords:
   - 多行文本溢出隐藏
   - 单行文本溢出隐藏
 date: 2017-11-19 15:58:35
+cover_img: 'https://picsum.photos/284/184'
+feature_img: 'https://picsum.photos/284/184'
+index_img: 'https://picsum.photos/284/184'
 ---
 html文本移除应该如何进行隐藏并显示省略号呢？
 <!--more-->
 
-{% note success no-icon %}
+
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
+
 ## 单行文本溢出隐藏
 ```js
-1 div{/* 单行溢出隐藏 */
-2             width: 150px;
-3             white-space: nowrap;
-4             overflow: hidden;
-5             text-overflow: ellipsis;
-6 }
+ div{/* 单行溢出隐藏 */
+             width: 150px;
+             white-space: nowrap;
+             overflow: hidden;
+             text-overflow: ellipsis;
+ }
 ```
 ## 多行文本溢出隐藏
 ```js
-1 div{/* 多行溢出隐藏 */
-2             width: 150px;
+ div{/* 多行溢出隐藏 */
+             width: 150px;
               display: -webkit-box;
-5             -webkit-box-orient: vertical;
-6             -webkit-line-clamp: 3;
-7             overflow: hidden;
-8 }
+             -webkit-box-orient: vertical;
+             -webkit-line-clamp: 3;
+             overflow: hidden;
+ }
 ```
 注：
 

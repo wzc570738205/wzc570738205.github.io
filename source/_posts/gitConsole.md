@@ -9,6 +9,9 @@ keywords:
   - git常用命令
   - 常用命令
 date: 2020-01-13 17:37:34
+cover_img: 'https://picsum.photos/303/203'
+feature_img: 'https://picsum.photos/303/203'
+index_img: 'https://picsum.photos/303/203'
 ---
 ### Git常用命令清单
 git常用命令合集

@@ -9,6 +9,9 @@ keywords:
   - 优化
 categories: Hexo
 date: 2020-01-10 11:10:33
+cover_img: 'https://picsum.photos/299/199'
+feature_img: 'https://picsum.photos/299/199'
+index_img: 'https://picsum.photos/299/199'
 ---
 
 ## 概述
@@ -17,9 +20,7 @@ date: 2020-01-10 11:10:33
 
 Hexo 的官方文档写的已经很全面了，本文仅将一些注意点列出。
 <!--more-->
-{% note success no-icon %}
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
 安装 Hexo 的文档参考：
 - [官宣-Hexo 文档](https://hexo.io/zh-cn/docs/index.html)
 
@@ -149,9 +150,7 @@ success形式的类别
 ```
 
 效果：
-{% note success no-icon %}
-success形式的类别
-{% endnote %}
+<p class="note note-success">success形式的类别</p>
 
 这里使用 `no-icon` 表示不显示图标，可选，默认会带有图标。
 
@@ -182,12 +181,10 @@ success形式的类别
 
 效果：
 
-{% cq %}
 人生乃是一面镜子，
 从镜子里认识自己，
 我要称之为头等大事，
 也只是我们追求的目的！
-{% endcq %}
 
 ### 主题自带 label 标签
 
@@ -205,71 +202,7 @@ label: true
 效果：
 {% label primary@primary内容 %}
 
-### 主题自带 tabs 标签
 
-主题配置文件：
-
-```
-# Tabs tag
-tabs:
-  enable: true
-  transition:
-    tabs: true
-    labels: true
-  border_radius: 0
-```
-
-语法：
-```
-{% tabs [Unique name], [index] %}
-<!-- tab [Tab caption]@[icon] -->
-Any content (support inline tags too).
-<!-- endtab -->
-{% endtabs %}
-```
-
-- `Unique name` 为每个标签页组唯一的名称
-- `index` 为初始激活的标签页
-- `Tab caption` 为标签页名称，不指定时为所属标签页组名称加索引
-- `icon` 为 `Font awesome图标`，可选
-
-源码示例：
-```
-{% tabs 选项卡, 2 %}
-<!-- tab -->
-这是选项卡 1 内容
-<!-- endtab -->
-<!-- tab -->
-这是选项卡 2 内容
-<!-- endtab -->
-<!-- tab -->
-这是选项卡 3** 哇，你找到我了！φ(≧ω≦*)♪～
-<!-- endtab -->
-{% endtabs %}
-```
-
-效果：
-{% tabs 选项卡, 2 %}
-<!-- tab -->
-这是选项卡 1 内容
-<!-- endtab -->
-<!-- tab -->
-这是选项卡 2 内容
-<!-- endtab -->
-<!-- tab -->
-这是选项卡 3** 哇，你找到我了！φ(≧ω≦*)♪～
-<!-- endtab -->
-{% endtabs %}
-
-### 主题自带样式按钮
-
-源码：
-```
-{% btn https://www.baidu.com, 点击下载百度, download fa-lg fa-fw %}
-```
-
-效果：
-{% btn https://www.baidu.com, 点击下载百度, download fa-lg fa-fw %}
 
 ## Hexo 其他知识
 
@@ -606,9 +539,7 @@ busuanzi_count:
 ```
 
 ### fancybox
-{%  note info %}
 fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages
-{% endnote %}
 
 
 - 检查`_config.yml` 中是否开启了 fancybox

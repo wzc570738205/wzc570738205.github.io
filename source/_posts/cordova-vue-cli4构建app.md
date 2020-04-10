@@ -13,15 +13,18 @@ keywords:
   - cordova更换图标
   - cordova更换启动页图片
   - cordova+vue-cli4构建app
+
+cover_img: 'https://picsum.photos/294/194'
+feature_img: 'https://picsum.photos/294/194'
+index_img: 'https://picsum.photos/294/194'
+
 ---
 
 {% asset_img cordova_bot.png This is an example image %}
 
 本文会详细的介绍如何使用cordova来打包vue项目，生成app（android）
 <!--more-->
-{% note success no-icon %}
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
 
 你将学会：
 * 基于cordova构建vue项目app

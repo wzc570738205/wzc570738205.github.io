@@ -3,15 +3,16 @@ title: VSCode的使用
 tags: VS Code
 categories: 前端工具
 date: 2018-02-10 09:47:10
+cover_img: 'https://picsum.photos/295/195'
+feature_img: 'https://picsum.photos/295/195'
+index_img: 'https://picsum.photos/295/195'
 ---
 
 ## 前言
 
 VS Code  本来是前端人员专用，但由于它实在是太好用了，于是，各种开发方向的码农也正在用 VS Code 作为他们的主力编程工具。甚至是一些写作的同学，也把 VS Code 作为 markdown 写作工具。
 <!--more-->
-{% note success no-icon %}
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
 
 ### 一、VS Code 的介绍
 

@@ -3,15 +3,16 @@ title: apply和call的区别
 date: 2019-05-09 17:56:02
 tags: javascript
 categories: 前端知识
+cover_img: 'https://picsum.photos/297/197'
+feature_img: 'https://picsum.photos/297/197'
+index_img: 'https://picsum.photos/297/197'
 ---
 
 
 ## apply 和 call 的区别
  ECMAScript 规范给所有函数都定义了 call 与 apply 两个方法，它们的应用非常广泛，它们的作用也是一模一样，只是传参的形式有区别而已。
   <!--more-->
-{% note success no-icon %}
 欢迎加入前端交流群：[749539640](//shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501) 
-{% endnote %}
 ### apply( )
  apply 方法传入两个参数：一个是作为函数上下文的对象，另外一个是作为函数参数所组成的数组。
  
