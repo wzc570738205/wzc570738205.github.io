@@ -463,7 +463,7 @@ ClickShowText:
 # 網站顯示模式
 # light 默認模式
 # dark 黑暗模式（不建議）
-display_mode: light
+display_mode: dark
 
 # 美化頁面顯示
 beautify:
