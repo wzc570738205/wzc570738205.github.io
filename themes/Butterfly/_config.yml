@@ -9,7 +9,7 @@ menu:
   归档: /archives/ || fa fa-archive
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
+  友链: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
   趣站||fa fa-list:
     - 免费图片地址 || https://picsum.photos/ || fa fa-music
