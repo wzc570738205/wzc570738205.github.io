@@ -3,7 +3,7 @@ title: 什么是URL？网址的组成
 tags: http
 categories: 前端知识
 date: 2018-11-15 15:29:27
-cover_img: 'https://picsum.photos/296/196'
+cover: 'https://picsum.photos/296/196'
 feature_img: 'https://picsum.photos/296/196'
 index_img: 'https://picsum.photos/296/196'
 ---

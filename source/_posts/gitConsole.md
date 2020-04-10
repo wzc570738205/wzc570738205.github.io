@@ -9,7 +9,7 @@ keywords:
   - git常用命令
   - 常用命令
 date: 2020-01-13 17:37:34
-cover_img: 'https://picsum.photos/303/203'
+cover: 'https://picsum.photos/303/203'
 feature_img: 'https://picsum.photos/303/203'
 index_img: 'https://picsum.photos/303/203'
 ---

@@ -2,7 +2,7 @@
 title: Angular动画
 tags: javascript
 categories: 前端知识
-cover_img: 'https://picsum.photos/302/202'
+cover: 'https://picsum.photos/302/202'
 feature_img: 'https://picsum.photos/302/202'
 index_img: 'https://picsum.photos/302/202'
 keywords:

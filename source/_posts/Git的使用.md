@@ -3,7 +3,7 @@ title: Git的使用
 tags: git
 categories: 前端知识
 date: 2016-10-20 20:54:57
-cover_img: 'https://picsum.photos/290/190'
+cover: 'https://picsum.photos/290/190'
 feature_img: 'https://picsum.photos/290/190'
 index_img: 'https://picsum.photos/290/190'
 ---

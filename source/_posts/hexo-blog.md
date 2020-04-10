@@ -9,7 +9,7 @@ keywords:
   - 优化
 categories: Hexo
 date: 2020-01-10 11:10:33
-cover_img: 'https://picsum.photos/299/199'
+cover: 'https://picsum.photos/299/199'
 feature_img: 'https://picsum.photos/299/199'
 index_img: 'https://picsum.photos/299/199'
 ---
@@ -200,7 +200,7 @@ label: true
 ```
 
 效果：
-{% label primary@primary内容 %}
+label primary@primary内容 
 
 
 

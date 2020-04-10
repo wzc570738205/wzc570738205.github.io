@@ -3,7 +3,7 @@ title: html标签下
 tags: html教程
 categories: 前端知识
 date: 2016-12-10 12:59:18
-cover_img: 'https://picsum.photos/285/185'
+cover: 'https://picsum.photos/285/185'
 feature_img: 'https://picsum.photos/285/185'
 index_img: 'https://picsum.photos/285/185'
 ---

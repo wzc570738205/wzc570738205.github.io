@@ -9,7 +9,7 @@ keywords:
   - 多行文本溢出隐藏
   - 单行文本溢出隐藏
 date: 2017-11-19 15:58:35
-cover_img: 'https://picsum.photos/284/184'
+cover: 'https://picsum.photos/284/184'
 feature_img: 'https://picsum.photos/284/184'
 index_img: 'https://picsum.photos/284/184'
 ---

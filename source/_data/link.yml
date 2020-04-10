@@ -1,0 +1,37 @@
+class:
+  class_name: 
+  link_list:
+    1:
+      name: GitHub
+      link: https://github.com/wzc570738205
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/github%20%281%2939%20.png
+      descr: github项目主页
+    2:
+      name: 博客园
+      link: https://www.cnblogs.com/wangzhichao/
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/博客园20%20.png
+      descr: 博客园发现更多文章
+    3:
+      name: 简易聊天室
+      link: http://wangzc.wang/websocket/
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/聊天室58%20.png
+      descr: websocket简易聊天室
+    4:
+      name: 地址智能识别
+      link: http://wangzc.wang/smartParsePro/ 
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/详细地址_s59%20.png
+      descr: 智能识别地址信息
+    5:
+      name: qq群
+      link: //shang.qq.com/wpa/qunwpa?idkey=f528775f242a7c39fe8512383febb8990e621bf97354c2fb82f6832097b7c501
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/QQ群00%20.png
+      descr: 前端交流群
+    6:
+      name: 联系我
+      link: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=xrG8pf-z9vH3-4a3t_ilqas
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/QQ邮箱01%20.png
+      descr: 发个qq邮箱吧
+
+
+
+

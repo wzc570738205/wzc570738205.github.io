@@ -3,7 +3,7 @@ title: VSCode的使用
 tags: VS Code
 categories: 前端工具
 date: 2018-02-10 09:47:10
-cover_img: 'https://picsum.photos/295/195'
+cover: 'https://picsum.photos/295/195'
 feature_img: 'https://picsum.photos/295/195'
 index_img: 'https://picsum.photos/295/195'
 ---

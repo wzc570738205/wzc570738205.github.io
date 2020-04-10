@@ -3,7 +3,7 @@ title: vue引入swiper
 tags: javascript
 categories: 前端知识
 date: 2017-04-09 22:57:16
-cover_img: 'https://picsum.photos/281/181'
+cover: 'https://picsum.photos/281/181'
 feature_img: 'https://picsum.photos/281/181'
 index_img: 'https://picsum.photos/281/181'
 ---

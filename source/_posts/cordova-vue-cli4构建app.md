@@ -14,7 +14,7 @@ keywords:
   - cordova更换启动页图片
   - cordova+vue-cli4构建app
 
-cover_img: 'https://picsum.photos/294/194'
+cover: 'https://picsum.photos/294/194'
 feature_img: 'https://picsum.photos/294/194'
 index_img: 'https://picsum.photos/294/194'
 

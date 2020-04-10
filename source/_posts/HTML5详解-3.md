@@ -3,7 +3,7 @@ title: HTML5详解-3
 tags: html教程
 categories: 前端知识
 date: 2017-03-20 16:13:13
-cover_img: 'https://picsum.photos/287/187'
+cover: 'https://picsum.photos/287/187'
 feature_img: 'https://picsum.photos/287/187'
 index_img: 'https://picsum.photos/287/187'
 ---

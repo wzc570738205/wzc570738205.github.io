@@ -10,6 +10,7 @@ keywords:
   - GitHub
   - clone慢
 date: 2020-04-02 11:10:36
+cover: https://picsum.photos/300/200
 ---
 GitHub 我们都知道是世界上最大的开源及私有软件项目的托管平台，全世界每天有海量优秀的开源软件在这里产生，而 GitHub 在国内很多时候获取到的下载链接是亚马逊的服务器。
 

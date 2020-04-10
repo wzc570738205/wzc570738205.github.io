@@ -3,7 +3,7 @@ title: apply和call的区别
 date: 2019-05-09 17:56:02
 tags: javascript
 categories: 前端知识
-cover_img: 'https://picsum.photos/297/197'
+cover: 'https://picsum.photos/297/197'
 feature_img: 'https://picsum.photos/297/197'
 index_img: 'https://picsum.photos/297/197'
 ---
