@@ -30,16 +30,16 @@ GitHub 我们都知道是世界上最大的开源及私有软件项目的托管�
 2.2脚本js下载：[脚本js地址](https://greasyfork.org/zh-CN/scripts/398278-github-%E9%95%9C%E5%83%8F%E8%AE%BF%E9%97%AE-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
 如果以上地址打不开请移步百度云 链接: [https://pan.baidu.com/s/1vKe0BsrUX2g4R5VlBjtLlA](https://pan.baidu.com/s/1vKe0BsrUX2g4R5VlBjtLlA)  密码: 6hbo
 
-我们先安装谷歌插件，然后打开插件![](https://img2020.cnblogs.com/blog/1250245/202004/1250245-20200402105733147-2080964699.png)
+我们先安装谷歌插件，然后打开插件![](https://gitee.com/Wzhichao/img/raw/master/uPic/njaX5C15%20.jpg)
 点击+号添加脚本，复制js文件里内容保存关闭即可
-![](https://img2020.cnblogs.com/blog/1250245/202004/1250245-20200402105836743-587990674.png)
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/so4fPH04%20.jpg)
 然后打开github项目你就会看到如下界面，就可以愉快的克隆了
-![](https://img2020.cnblogs.com/blog/1250245/202004/1250245-20200402105951362-565617348.png)
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/ZbRDos23%20.jpg)
 
 
 对比下克隆速度：
 ### 加速前：
-![](https://img2020.cnblogs.com/blog/1250245/202004/1250245-20200402110148312-2141032803.png)
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/6XroC236%20.jpg)
 ### 加速后：
-![](https://img2020.cnblogs.com/blog/1250245/202004/1250245-20200402110235629-422108635.png)
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/tPM0IH46%20.jpg)
 简直是质的飞跃，妈妈再也不用担心我clone了
