@@ -407,7 +407,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: true
+footer_bg: false
 
 # 背景特效
 # 避免卡頓，建議只開啟一個
