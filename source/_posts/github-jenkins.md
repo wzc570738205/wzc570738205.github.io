@@ -29,7 +29,7 @@ Jenkins是开源CI&CD软件领导者， 提供超过1000个插件来支持构建
 - Jenkins 可以轻松地在多台机器上分配工作，帮助更快速地跨多个平台推动构建、测试和部署。
 
 ## 安装jenkins
-jenkins的安装请移步[在linux服务器上安装Jenkins](https://www.jianshu.com/p/c517f09df025)
+jenkins的安装请移步{% post_link jenkins-i-linux 在linux服务器上安装Jenkins %}
 
 ## 新建github项目
 我们新建一个名为jenkins的git仓库，代码我这里选择了用[vue-cli](https://cli.vuejs.org/)简易生成了一个示例demo
