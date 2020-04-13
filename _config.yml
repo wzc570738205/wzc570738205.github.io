@@ -117,3 +117,9 @@ feed:
     type: atom
     path: atom.xml
     limit: 20
+
+
+leancloud_visitors:
+  enable: true
+  app_id:  9fgm6JVbw8PrOlvp7LfsKjsh-gzGzoHsz # // 这里填写上面得到的APP ID
+  app_key: LReLvzSwPnBOAz5LiIgJsiDO  #// 这里填写上面得到的APP KEY
