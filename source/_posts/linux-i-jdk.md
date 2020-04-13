@@ -1,8 +1,8 @@
 ---
 title: 在linux服务器上安装jdk
-cover_img: 'https://picsum.photos/300/200'
-feature_img: 'https://picsum.photos/300/200'
-index_img: 'https://picsum.photos/300/200'
+cover_img: 'https://picsum.photos/333/233'
+feature_img: 'https://picsum.photos/333/233'
+index_img: 'https://picsum.photos/333/233'
 tags: javascript
 categories: 前端知识
 keywords:
