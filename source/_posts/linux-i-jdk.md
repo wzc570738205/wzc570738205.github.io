@@ -7,8 +7,9 @@ tags: javascript
 categories: 前端知识
 keywords:
   - 在linux服务器上安装jdk
-date: 2020-03-1 15:45:49
+date: 2019-12-10 15:45:49
 ---
+
 ### yum安装jdk
 在linux上使用yum安装是非常粗暴无脑的，但仍然有需要注意的点，不然会掉坑里。这里说一下步骤。
 
