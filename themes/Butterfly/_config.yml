@@ -254,10 +254,6 @@ gitalk:
   createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
   count: true # top_img顯示評論數
 
-leancloud_visitors:
-  enable: true
-  app_id:  9fgm6JVbw8PrOlvp7LfsKjsh-gzGzoHsz # // 这里填写上面得到的APP ID
-  app_key: LReLvzSwPnBOAz5LiIgJsiDO  #// 这里填写上面得到的APP KEY
 
 # valine comment system. https://valine.js.org
 valine:
@@ -739,3 +735,14 @@ CDN:
   fontawesome_v5: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   translate: /js/tw_cn.js
+
+
+leancloud_visitors:
+  enable: true
+  app_id: 9fgm6JVbw8PrOlvp7LfsKjsh-gzGzoHsz
+  app_key: LReLvzSwPnBOAz5LiIgJsiDO
+  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  # If you don't care about security in leancloud counter and just want to use it directly
+  # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
+  security: true
+  betterPerformance: true
