@@ -927,7 +927,7 @@ $(function() {
             .then(response => response.json())
             .then(() => {
               if (leancloudSelector(url)) {
-                leancloudSelector(url).innerText = parseInt(counter.time) + 1;
+                leancloudSelector(url).innerText =  1;
               }
             })
             .catch(error => {
