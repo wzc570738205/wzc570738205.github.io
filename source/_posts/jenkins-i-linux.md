@@ -10,6 +10,8 @@ keywords:
   - Jenkins
   - linux
 date: 2020-03-13 15:45:30
+top_img: 'https://picsum.photos/304/204'
+cover: 'https://picsum.photos/304/204'
 ---
 
 Jenkins是用java编写的开源持续集成工具，目前被国内外各公司广泛使用。本章教大家如何在linux服务器上安装Jenkins。

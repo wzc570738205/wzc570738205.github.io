@@ -4,6 +4,8 @@ date: {{ date }}
 cover_img:  https://picsum.photos/300/200 # 在文章摘要上显示
 feature_img:  https://picsum.photos/300/200 # 在文章详细页面上置顶
 index_img: https://picsum.photos/300/200
+top_img: https://picsum.photos/304/204
+cover: https://picsum.photos/304/204
 tags: javascript
 categories: 前端知识
 keywords:
