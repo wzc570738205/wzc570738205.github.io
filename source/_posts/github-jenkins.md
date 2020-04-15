@@ -3,9 +3,9 @@ title: 使用jenkins自动构建github项目
 
 feature_img: 'https://picsum.photos/301/201'
 index_img: 'https://picsum.photos/301/201'
-tags: javascript
-hide: false
-categories: 前端知识
+tags: 
+- jenkins 
+categories: 前端自动化
 keywords:
   - jenkins
   - 使用jenkins自动构建github项目

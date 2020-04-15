@@ -3,8 +3,10 @@ title: svn实现钉钉代码提交通知
 cover_img: 'https://picsum.photos/100/200'
 feature_img: 'https://picsum.photos/100/200'
 index_img: 'https://picsum.photos/100/200'
-tags: javascript
-categories: 前端知识
+tags: 
+- jenkins 
+- svn
+categories: 前端自动化
 keywords:
   - svn
   - 钉钉通知

@@ -3,8 +3,9 @@ title: 在linux服务器上安装Jenkins
 cover_img: 'https://picsum.photos/304/204'
 feature_img: 'https://picsum.photos/304/204'
 index_img: 'https://picsum.photos/304/204'
-tags: javascript
-categories: 前端知识
+tags: 
+- jenkins 
+categories: 前端自动化
 keywords:
   - 在linux服务器上安装Jenkins
   - Jenkins

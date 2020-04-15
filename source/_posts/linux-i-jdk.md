@@ -3,8 +3,9 @@ title: 在linux服务器上安装jdk
 cover_img: 'https://picsum.photos/333/233'
 feature_img: 'https://picsum.photos/333/233'
 index_img: 'https://picsum.photos/333/233'
-tags: javascript
-categories: 前端知识
+tags: 
+- jenkins 
+categories: 前端自动化
 keywords:
   - 在linux服务器上安装jdk
 date: 2019-12-10 15:45:49
