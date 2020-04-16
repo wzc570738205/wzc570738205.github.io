@@ -7,8 +7,7 @@ cover: 'https://picsum.photos/281/181'
 feature_img: 'https://picsum.photos/281/181'
 index_img: 'https://picsum.photos/281/181'
 ---
-{% asset_img logo.png This is an example image %}
-
+<img src='logo.png'>
 ### vue引入swiper  vue使用swiper  vue脚手架使用swiper /引入js文件/引入css文件
 
 <!--more-->
