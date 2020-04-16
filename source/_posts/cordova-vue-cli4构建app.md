@@ -20,7 +20,7 @@ index_img: 'https://picsum.photos/294/194'
 
 ---
 
-{% asset_img cordova_bot.png This is an example image %}
+<img src="cordova_bot.png"  >
 
 本文会详细的介绍如何使用cordova来打包vue项目，生成app（android）
 <!--more-->
