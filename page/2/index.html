@@ -1,0 +1,181 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>王志超的博客 - 今天你更博学了吗</title><meta name="description" content="记录前端的点点滴滴"><meta name="keywords" content="王志超,王志超的网站,王志超的博客"><meta name="author" content="王志超"><meta name="copyright" content="王志超"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/images/favicon-16x16-next.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="王志超的博客"><meta name="twitter:description" content="记录前端的点点滴滴"><meta name="twitter:image" content="https://picsum.photos/200/200"><meta property="og:type" content="website"><meta property="og:title" content="王志超的博客"><meta property="og:url" content="http://wangzc.wang/page/2/"><meta property="og:site_name" content="王志超的博客"><meta property="og:description" content="记录前端的点点滴滴"><meta property="og:image" content="https://picsum.photos/200/200"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = 'false'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="http://wangzc.wang/page/2/"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-119026906-1', 'auto');
+ga('send', 'pageview');
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"http://wangzc.wang/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="王志超的博客" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://picsum.photos/200/200" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">24</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">10</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 趣站</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://docschina.org/" target="_blank" rel="noopener"><i class="fa-fw fa fa-soccer-ball-o"></i><span> 印记中文</span></a></li><li><a class="site-page" href="https://dalao.ru/b/" target="_blank" rel="noopener"><i class="fa-fw fa fa-free-code-camp"></i><span> 大佬分享</span></a></li></ul></div></div></div></div><div id="body-wrap"><div class="full_page" id="nav" style="background-image: url(https://picsum.photos/1920/1080)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">王志超的博客</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 趣站</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://docschina.org/" target="_blank" rel="noopener"><i class="fa-fw fa fa-soccer-ball-o"></i><span> 印记中文</span></a></li><li><a class="site-page" href="https://dalao.ru/b/" target="_blank" rel="noopener"><i class="fa-fw fa fa-free-code-camp"></i><span> 大佬分享</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="site-info"><h1 id="site_title">王志超的博客</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/wzc570738205" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=xrG8pf-z9vH3-4a3t_ilqas" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div><div id="scroll_down"><i class="fa fa-angle-down scroll-down-effects"></i></div></div><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2018/11/15/what-url/" title="什么是URL？网址的组成">     <img class="post_bg lazyload" data-src="https://picsum.photos/296/196" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="什么是URL？网址的组成"></a></div><div class="recent-post-info"><a class="article-title" href="/2018/11/15/what-url/" title="什么是URL？网址的组成">什么是URL？网址的组成</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2018-11-15 15:29:27"><i class="fa fa-calendar" aria-hidden="true"></i>2018-11-15</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">和 Hypertext 以及 HTTP 一样，URL是Web中的一个核心概念。它是浏览器用来检索web上公布的任何资源的机制。
+URL指的是统一资源定位符（Uniform Resource Locator）。URL无非就是一个给定的独特资源在Web上的地址。理论上说，每个有效的URL都指向一个独特的 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2018/02/10/VSCode-use/" title="VSCode的使用">     <img class="post_bg lazyload" data-src="https://picsum.photos/295/195" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VSCode的使用"></a></div><div class="recent-post-info"><a class="article-title" href="/2018/02/10/VSCode-use/" title="VSCode的使用">VSCode的使用</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2018-02-10 09:47:10"><i class="fa fa-calendar" aria-hidden="true"></i>2018-02-10</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/">前端工具</a></span></div><div class="content">前言VS Code  本来是前端人员专用，但由于它实在是太好用了，于是，各种开发方向的码农也正在用 VS Code 作为他们的主力编程工具。甚至是一些写作的同学，也把 VS Code 作为 markdown 写作工具。
+
+欢迎加入前端交流群：749539640 
+一、VS Code 的介绍VS Co ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2017/12/11/cordova-vue-cli4-build-app/" title="cordova+vue-cli4构建app">     <img class="post_bg lazyload" data-src="https://picsum.photos/294/194" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="cordova+vue-cli4构建app"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/12/11/cordova-vue-cli4-build-app/" title="cordova+vue-cli4构建app">cordova+vue-cli4构建app</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-12-11 14:15:52"><i class="fa fa-calendar" aria-hidden="true"></i>2017-12-11</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">
+
+本文会详细的介绍如何使用cordova来打包vue项目，生成app（android）
+
+欢迎加入前端交流群：749539640 
+你将学会：
+
+基于cordova构建vue项目app
+自定义app名字/图标/启动页图片
+自动构建脚本
+
+
+Cordova(中文官网详细介绍)是一个开源的移动开发框架 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2017/11/19/line-lineoverflow/" title="html单行、多行文本溢出隐藏">     <img class="post_bg lazyload" data-src="https://picsum.photos/284/184" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="html单行、多行文本溢出隐藏"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/11/19/line-lineoverflow/" title="html单行、多行文本溢出隐藏">html单行、多行文本溢出隐藏</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-11-19 15:58:35"><i class="fa fa-calendar" aria-hidden="true"></i>2017-11-19</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">html文本移除应该如何进行隐藏并显示省略号呢？
+
+
+
+欢迎加入前端交流群：749539640 
+单行文本溢出隐藏123456div&#123;/* 单行溢出隐藏 */            width: 150px;            white-space: nowrap;          ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2017/05/14/03-JS-dataType/" title="javascript变量的数据类型">     <img class="post_bg lazyload" data-src="https://picsum.photos/291/191" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="javascript变量的数据类型"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/05/14/03-JS-dataType/" title="javascript变量的数据类型">javascript变量的数据类型</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-05-14 15:59:27"><i class="fa fa-calendar" aria-hidden="true"></i>2017-05-14</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">变量的数据类型为什么需要数据类型在计算机中，不同的数据所需占用的存储空间不同，为了充分利用存储空间，于是定义了不同的数据类型。而且，不同的数据类型，寓意也不同。
+
+欢迎加入前端交流群：749539640 
+我们都知道，无论这个变量是字符串类型，还是数字类型，我们都可以直接用 var 去定义它。比如： ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2017/05/12/02-JS-data/" title="javascript变量">     <img class="post_bg lazyload" data-src="https://picsum.photos/292/192" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="javascript变量"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/05/12/02-JS-data/" title="javascript变量">javascript变量</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-05-12 10:54:10"><i class="fa fa-calendar" aria-hidden="true"></i>2017-05-12</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">字面量：数字和字符串“字面量”即常量，是固定值，不可改变。看见什么，它就是什么。
+字面量有3种：
+
+数字
+
+字符串
+
+布尔字面量
+
+欢迎加入前端交流群：749539640 
+
+
+（1）数值的字面量非常简单，写上去就行了，不需要任何的符号。例如：
+1alert(886);  //886是数字，所以不需 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2017/05/11/01-JS/" title="javascript简介">     <img class="post_bg lazyload" data-src="https://picsum.photos/293/193" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="javascript简介"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/05/11/01-JS/" title="javascript简介">javascript简介</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-05-11 10:53:49"><i class="fa fa-calendar" aria-hidden="true"></i>2017-05-11</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">JavaScript背景Web前端有三层：
+
+HTML：从语义的角度，描述页面结构
+
+CSS：从审美的角度，描述样式（美化页面）
+
+JavaScript：从交互的角度，描述行为（实现业务逻辑和页面控制）
+
+欢迎加入前端交流群：749539640 
+发展历史
+
+JavaScript诞生于1995年。布 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2017/04/09/vue-import-swiper/" title="vue引入swiper">     <img class="post_bg lazyload" data-src="https://picsum.photos/281/181" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="vue引入swiper"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/04/09/vue-import-swiper/" title="vue引入swiper">vue引入swiper</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-04-09 22:57:16"><i class="fa fa-calendar" aria-hidden="true"></i>2017-04-09</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">
+
+vue引入swiper  vue使用swiper  vue脚手架使用swiper /引入js文件/引入css文件
+
+欢迎加入前端交流群：749539640 
+
+转载文章请注明出处！               
+ 如果只是要使用轮播效果的话可以参考下一些vue组件；比如这篇文章
+——–2019. ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2017/03/20/HTML5-3/" title="HTML5详解-3">     <img class="post_bg lazyload" data-src="https://picsum.photos/287/187" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML5详解-3"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/03/20/HTML5-3/" title="HTML5详解-3">HTML5详解-3</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-03-20 16:13:13"><i class="fa fa-calendar" aria-hidden="true"></i>2017-03-20</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">Web 存储随着互联网的快速发展，基于网页的应用越来越普遍，同时也变的越来越复杂，为了满足各种各样的需求，会经常性在本地存储大量的数据，传统方式我们以document.cookie来进行存储的，但是由于其存储大小只有4k左右，并且解析也相当的复杂，给开发带来诸多不便，HTML5规范则提出解决方案。
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2017/03/16/HTML5-2/" title="HTML5详解-2">     <img class="post_bg lazyload" data-src="https://picsum.photos/288/188" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML5详解-2"></a></div><div class="recent-post-info"><a class="article-title" href="/2017/03/16/HTML5-2/" title="HTML5详解-2">HTML5详解-2</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2017-03-16 12:26:09"><i class="fa fa-calendar" aria-hidden="true"></i>2017-03-16</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/">前端知识</a></span></div><div class="content">本文主要内容
+拖拽
+
+历史
+
+地理位置
+
+全屏
+
+
+
+
+欢迎加入前端交流群：749539640 
+拖拽
+如上图所示，我们可以拖拽博客园网站里的图片和超链接。
+在HTML5的规范中，我们可以通过为元素增加 draggable=&quot;true&quot; 来设置此元素是否可以进行拖拽操作，其中图片 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fa fa-fw fa-chevron-left" aria-hidden="true"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-fw fa-chevron-right" aria-hidden="true"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://picsum.photos/200/200" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">王志超</div><div class="author-info__description">记录前端的点点滴滴</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">24</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">10</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">4</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/wzc570738205" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=xrG8pf-z9vH3-4a3t_ilqas" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>公告</span></div><div class="announcement_content">感谢访问本站，若喜欢请收藏 ^_^</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"> <div class="aside-recent-post"><a href="/2020/04/15/svnDingTalk/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://picsum.photos/100/200" onerror="this.onerror=null;this.src='/img/404.jpg'" title="svn实现钉钉代码提交通知" alt="svn实现钉钉代码提交通知"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/04/15/svnDingTalk/" title="svn实现钉钉代码提交通知">svn实现钉钉代码提交通知</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-15 09:05:02">2020-04-15</time></div></a></div><div class="aside-recent-post"><a href="/2020/04/10/github-jenkins/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://picsum.photos/301/201" onerror="this.onerror=null;this.src='/img/404.jpg'" title="使用jenkins自动构建github项目" alt="使用jenkins自动构建github项目"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/04/10/github-jenkins/" title="使用jenkins自动构建github项目">使用jenkins自动构建github项目</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-10 09:25:53">2020-04-10</time></div></a></div><div class="aside-recent-post"><a href="/2020/04/02/githun-speed/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://picsum.photos/300/200" onerror="this.onerror=null;this.src='/img/404.jpg'" title="github clone加速脚本 GitHub 国内加速下载" alt="github clone加速脚本 GitHub 国内加速下载"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/04/02/githun-speed/" title="github clone加速脚本 GitHub 国内加速下载">github clone加速脚本 GitHub 国内加速下载</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-02 11:10:36">2020-04-02</time></div></a></div><div class="aside-recent-post"><a href="/2020/03/13/jenkins-i-linux/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://picsum.photos/304/204" onerror="this.onerror=null;this.src='/img/404.jpg'" title="在linux服务器上安装Jenkins" alt="在linux服务器上安装Jenkins"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/03/13/jenkins-i-linux/" title="在linux服务器上安装Jenkins">在linux服务器上安装Jenkins</div><time class="aside-post_meta post-meta__date" title="发表于 2020-03-13 15:45:30">2020-03-13</time></div></a></div><div class="aside-recent-post"><a href="/2020/01/16/angularAnimation/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://picsum.photos/302/202" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Angular动画" alt="Angular动画"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/01/16/angularAnimation/" title="Angular动画">Angular动画</div><time class="aside-post_meta post-meta__date" title="发表于 2020-01-16 11:01:54">2020-01-16</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="aside-category-item">       <li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Hexo/"><span class="aside-category-list_name">Hexo</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"><span class="aside-category-list_name">前端工具</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"><span class="aside-category-list_name">前端知识</span><span class="aside-category-list_length">18</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/"><span class="aside-category-list_name">前端自动化</span><span class="aside-category-list_length">4</span></a></li></ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/VS-Code/" style="font-size: 16px; color: #999">VS Code</a> <a href="/tags/git/" style="font-size: 16px; color: #999">git</a> <a href="/tags/github/" style="font-size: 16px; color: #999">github</a> <a href="/tags/html/" style="font-size: 16px; color: #999">html</a> <a href="/tags/html%E6%95%99%E7%A8%8B/" style="font-size: 22px; color: #99a5b6">html教程</a> <a href="/tags/http/" style="font-size: 16px; color: #999">http</a> <a href="/tags/javascript/" style="font-size: 24px; color: #99a9bf">javascript</a> <a href="/tags/javascript%E6%95%99%E7%A8%8B/" style="font-size: 18px; color: #999da3">javascript教程</a> <a href="/tags/jenkins/" style="font-size: 20px; color: #99a1ac">jenkins</a> <a href="/tags/svn/" style="font-size: 16px; color: #999">svn</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/"><span class="archive-list-date">2020年04月</span><span class="archive-list-count">3</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/"><span class="archive-list-date">2020年03月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/"><span class="archive-list-date">2020年01月</span><span class="archive-list-count">3</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/"><span class="archive-list-date">2019年12月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/"><span class="archive-list-date">2019年08月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/"><span class="archive-list-date">2019年05月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/"><span class="archive-list-date">2018年11月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/"><span class="archive-list-date">2018年02月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item is-center"><a class="archive-list-link-more" href="/archives" >查看更多</a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">24</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="6/7/2018 00:00:00">     </div></div><div class="webinfo-item"><div class="webinfo-site-wordcount-name">本站总字数 :</div><div class="webinfo-site-wordcount">58k</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 王志超</div><div class="icp"><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" target="_blank" rel="noopener"><img class="icp-icon" src="/img/icp.png"/><span>晋ICP备20000269号</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-sun-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script type="text/javascript" src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script><script>var subtitleEffect = true
+jinrishici.load(function(result) {
+  if (subtitleEffect){
+    var sub = ''.length == 0  ? new Array() : ''.split(",");
+    var content = result.data.content;
+    var both = sub.unshift(content)
+    var typed = new Typed("#subtitle", {
+      strings: sub,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: false,
+      backSpeed: 50
+    });
+  }else{
+    document.getElementById("subtitle").innerHTML = result.data.content        
+  }
+})
+</script></body></html>
