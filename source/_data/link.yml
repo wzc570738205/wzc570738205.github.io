@@ -31,7 +31,14 @@ class:
       link: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=xrG8pf-z9vH3-4a3t_ilqas
       avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/QQ邮箱01%20.png
       descr: 发个qq邮箱吧
+    7:
+      name: 正则匹配
+      link: http://wangzc.wang/reg/index.html
+      avatar: https://gitee.com/Wzhichao/img/raw/master/uPic/bzD4O846%20.jpg
+      descr: 在线正则匹配测试  
 
+
+      
 
 
 
